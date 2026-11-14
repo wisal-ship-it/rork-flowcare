@@ -1,0 +1,23 @@
+{
+  "$schema": "https://rork.com/schema/rork.json",
+  "apps": [
+    {
+      "name": "FlowCare",
+      "path": "ios-flowcare",
+      "framework": "swift",
+      "settings": {
+        "swiftSibling": false
+      }
+    },
+    {
+      "name": "FlowCare Web",
+      "path": "web-flowcare",
+      "framework": "web"
+    },
+    {
+      "name": "Backend",
+      "path": "backend",
+      "framework": "supabase"
+    }
+  ]
+}
